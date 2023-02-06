@@ -2,73 +2,103 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&family=Poppins:wght@200&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@400;500;700&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-html{
-    font-size: 16px;
+html {
+  font-size: 16px;
 }
-a{
-    text-decoration: none;
+img {
+  max-width: 100%;
+  height: auto;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
 }
-img{
-    max-width: 100%;
-    height: auto;
-    border-top-right-radius: 12px;
-    border-top-left-radius: 12px;
+body {
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-body{
-    background-color:hsl(225, 100%, 94%) ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    filter: drop-shadow(4px 4px 8px gray);
+.card-container {
+  width: 25vw;
+  flex-direction: column;
+  margin-top: 50px;
+  box-shadow: 8px 8px 16px gray;
+  border-radius: 16px;
 }
-.card-container{
-    width: 25vw;
-    flex-direction: column;
-    margin-top: 50px;
-    /* filter: drop-shadow(4px 4px 8px gray); */
-    box-shadow: 8px 8px 16px gray;
-    border-radius: 16px;
+h1 {
+  width: 17vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: -0.5rem;
+  margin-left: 3.4rem;
+  text-align: center;
 }
-h1{
-    line-height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+p {
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  width: 20vw;
+  display: flex;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5rem;
+  opacity: 0.7;
 }
-p{
-    width: 25vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.card-annualplan {
+  width: 19vw;
+  margin-top: 1.2rem;
+  margin-left: 1.5rem;
+  padding: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.1rem;
+  background-color: hsla(180, 5%, 88%, 0.959);
+  border-radius: 6px;
+  margin-left: 2rem;
 }
-.btn-container button{
-    background-color:hsl(245, 75%, 52%);
-    border: solid hsl(245, 75%, 52%);
-    border-radius: 10px;
-    display: block;
-    margin-top: 3rem;
-    width: 70%;
-    height: 5vh;
-    margin-left: 18%;
+.bold {
+  color: black;
 }
-.btn{
-    color: aliceblue;
-    font-weight: bold;
-}
-.link-container a{
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.uderlin {
+  text-decoration: underline;
 }
 
-
-
-    
+.btn-container button {
+  background-color: hsl(245, 75%, 52%);
+  border: solid hsl(245, 75%, 52%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 16px gray;
+  display: block;
+  margin-top: 2rem;
+  width: 19vw;
+  height: 6vh;
+  margin-left: 2rem;
+}
+.btn {
+  color: aliceblue;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+.link-container a {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
